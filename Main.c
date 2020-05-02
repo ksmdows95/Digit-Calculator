@@ -3,7 +3,7 @@
 int main()
 {
 	int num, counter = 0, rem;
-	printf("Bir sayi girin:");
+	printf("Enter a number:");
 	scanf_s(" %d", &num);
 	do
 	{
@@ -11,5 +11,5 @@ int main()
 		num = rem;
 		counter++;
 	}while (rem > 0);
-	printf("Sayiniz %d basamakli.\n", counter);
+	printf("Your number has %d digits.\n", counter);
 }
